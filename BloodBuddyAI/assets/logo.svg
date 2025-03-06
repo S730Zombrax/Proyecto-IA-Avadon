@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain outline -->
+  <path d="M100 20 C140 20, 170 50, 170 90 C170 130, 140 160, 100 160 C60 160, 30 130, 30 90 C30 50, 60 20, 100 20" 
+        fill="none" stroke="#E94F37" stroke-width="8"/>
+  
+  <!-- Brain details -->
+  <path d="M100 40 C120 40, 140 60, 140 90 C140 120, 120 140, 100 140" 
+        fill="none" stroke="#E94F37" stroke-width="6"/>
+  <path d="M100 40 C80 40, 60 60, 60 90 C60 120, 80 140, 100 140" 
+        fill="none" stroke="#E94F37" stroke-width="6"/>
+  
+  <!-- Gold accent -->
+  <circle cx="100" cy="90" r="15" fill="#FFD700"/>
+</svg>
