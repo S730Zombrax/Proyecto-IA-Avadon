@@ -1,0 +1,846 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches",
+        "¿Que tal?",
+        "¿Como estas?",
+        "Saludos",
+        "Hola, necesito informacion",
+        "¿Puedes ayudarme?",
+        "Necesito consultar algo"
+      ],
+      "responses": [
+        "¡Hola! Soy tu asistente virtual especializado en compatibilidad sanguinea. ¿En que puedo ayudarte?",
+        "¡Bienvenido! Estoy aqui para responder tus dudas sobre tipos de sangre y compatibilidad. ¿Que te gustaria saber?",
+        "¡Hola! ¿Tienes alguna pregunta sobre compatibilidad sanguinea?"
+      ]
+    },
+    {
+      "tag": "factores_riesgo_donacion",
+      "patterns": [
+        "¿Que me impide donar sangre?",
+        "¿Por que no puedo donar?",
+        "Factores de riesgo para donar",
+        "Contraindicaciones para donar sangre",
+        "¿Cuando no se puede donar sangre?",
+        "¿Es seguro donar si tengo anemia?",
+        "¿Puedo donar si tomo medicamentos?",
+        "¿Se puede donar con tatuajes?",
+        "¿Puedo donar si me hice un piercing?"
+      ],
+      "responses": [
+        "Existen varios factores que pueden impedir la donacion de sangre:\n\n1. Enfermedades cronicas\n2. Medicamentos especificos\n3. Tatuajes o piercings recientes (menos de 6 meses)\n4. Anemia o niveles bajos de hierro\n5. Cirugias recientes\n6. Embarazo o parto reciente\n7. Enfermedades infecciosas\n\nSiempre consulta con el personal del banco de sangre para una evaluacion especifica.",
+        "Las principales contraindicaciones para donar sangre incluyen:\n\n- Enfermedades transmisibles\n- Procedimientos invasivos recientes\n- Ciertas condiciones medicas\n- Medicamentos especificos\n\nEs importante ser honesto en la entrevista previa a la donacion para garantizar la seguridad."
+      ]
+    },
+    {
+      "tag": "proceso_donacion",
+      "patterns": [
+        "¿Como es el proceso de donacion?",
+        "¿Que pasa cuando donas sangre?",
+        "Pasos para donar sangre",
+        "¿Cuanto dura la donacion?",
+        "¿Duele donar sangre?",
+        "¿Que debo hacer antes de donar?",
+        "¿Que comer antes de donar?",
+        "¿Que hacer despues de donar?"
+      ],
+      "responses": [
+        "El proceso de donacion de sangre tiene varios pasos:\n\n1. Registro y verificacion de identidad\n2. Cuestionario de salud\n3. Examen fisico basico (presion, pulso, temperatura)\n4. Extraccion de sangre (15-20 minutos)\n5. Periodo de recuperacion con refrigerio\n\nEl proceso completo toma aproximadamente una hora.",
+        "Para una donacion exitosa:\n\nAntes:\n- Duerme bien\n- Desayuna adecuadamente\n- Bebe suficiente agua\n\nDurante:\n- La extraccion dura 15-20 minutos\n- Es practicamente indoloro\n\nDespues:\n- Descansa 15 minutos\n- Mantente hidratado\n- Evita ejercicio intenso ese dia"
+      ]
+    },
+    {
+      "tag": "mitos_sangre",
+      "patterns": [
+        "¿Es verdad que la sangre azul existe?",
+        "¿El tipo de sangre influye en la personalidad?",
+        "¿Se puede cambiar el tipo de sangre?",
+        "¿Donar sangre engorda?",
+        "¿Donar sangre adelgaza?",
+        "¿La sangre se contamina al donar?",
+        "¿Puedo contagiarme de algo al donar?",
+        "¿Donar sangre debilita?",
+        "¿La sangre se acaba si donas mucho?"
+      ],
+      "responses": [
+        "Vamos a aclarar algunos mitos comunes sobre la sangre:\n\n❌ La sangre azul no existe\n❌ El tipo de sangre no determina la personalidad\n❌ No se puede cambiar el tipo de sangre\n❌ Donar no afecta el peso corporal\n❌ Es imposible contagiarse de enfermedades al donar\n✅ La sangre se regenera naturalmente\n✅ Donar es un proceso seguro",
+        "Es importante desmentir estos mitos:\n\n1. Tu tipo de sangre es genetico y no cambia\n2. Donar sangre es completamente seguro\n3. El cuerpo regenera la sangre en pocas semanas\n4. No afecta tu peso o metabolismo\n5. Los materiales de donacion son esteriles y de un solo uso"
+      ]
+    },
+    {
+      "tag": "embarazo_sangre",
+      "patterns": [
+        "¿Es importante el tipo de sangre en el embarazo?",
+        "Compatibilidad sanguinea en el embarazo",
+        "Rh negativo en embarazo",
+        "¿Que es la incompatibilidad Rh?",
+        "Riesgos de diferentes tipos de sangre en embarazo",
+        "¿Que pasa si la madre es Rh negativo?",
+        "Vacuna Rhogam embarazo",
+        "Problemas de sangre en embarazo"
+      ],
+      "responses": [
+        "La compatibilidad sanguinea es crucial en el embarazo:\n\n1. La incompatibilidad Rh puede ocurrir cuando:\n- Madre es Rh negativo\n- Bebe es Rh positivo\n\n2. Se maneja con:\n- Control prenatal regular\n- Vacuna RhoGAM en momentos especificos\n- Monitoreo durante el embarazo",
+        "Aspectos importantes sobre sangre y embarazo:\n\n- Se realiza prueba de tipo de sangre al inicio\n- Madres Rh negativo necesitan seguimiento especial\n- La incompatibilidad puede tratarse efectivamente\n- Es importante informar al medico del tipo de sangre"
+      ]
+    },
+    {
+      "tag": "plasma_plaquetas",
+      "patterns": [
+        "¿Que es el plasma?",
+        "¿Para que sirven las plaquetas?",
+        "Donacion de plasma",
+        "Donacion de plaquetas",
+        "¿Cuando se necesita plasma?",
+        "¿Quien necesita plaquetas?",
+        "Diferencia entre sangre y plasma",
+        "¿Cada cuanto puedo donar plasma?"
+      ],
+      "responses": [
+        "Informacion sobre plasma y plaquetas:\n\nPlasma:\n- Parte liquida de la sangre\n- Contiene proteinas y factores de coagulacion\n- Se puede donar cada 28 dias\n\nPlaquetas:\n- Celulas que ayudan en la coagulacion\n- Esenciales para detener hemorragias\n- Se pueden donar cada 7 dias",
+        "Usos del plasma y plaquetas:\n\nPlasma:\n- Tratamientos de quemaduras\n- Trastornos de coagulacion\n- Enfermedades hepaticas\n\nPlaquetas:\n- Tratamientos de cancer\n- Cirugias mayores\n- Trastornos plaquetarios"
+      ]
+    },
+    {
+      "tag": "fuera_de_dominio",
+      "patterns": [
+        "Cual es el sentido de la vida",
+        "Como esta el clima",
+        "Recomiendame una pelicula",
+        "Cuando es navidad",
+        "Que opinas de la politica",
+        "¿Puedes ayudarme con matematicas?",
+        "¿Sabes cocinar?",
+        "¿Cual es tu color favorito?"
+      ],
+      "responses": [
+        "Aprecio tu pregunta, pero debo ser honesto: soy un asistente medico especializado especificamente en hematologia. Mi conocimiento se centra en temas de sangre, transfusiones y temas medicos relacionados. ¿Te gustaria saber algo sobre estos temas?",
+        "Entiendo tu curiosidad, pero como asistente virtual medico especializado, mi area de experiencia se limita a temas relacionados con la sangre y la hematologia. Estare encantado de ayudarte con cualquier pregunta sobre estos temas especificos.",
+        "Te agradezco la pregunta, pero debo aclarar que soy un bot medico con especializacion en temas de sangre. No puedo ayudarte con eso, pero si tienes alguna duda sobre tipos de sangre, donaciones, transfusiones o temas relacionados, estare feliz de asistirte."
+      ]
+    },
+    {
+      "tag": "analisis_sangre_nuevo",
+      "patterns": [
+        "Analisis de sangre y hemogramas",
+        "Tipos de analisis de sangre",
+        "Informacion sobre analisis de sangre",
+        "Que es un analisis de sangre completo"
+      ],
+      "responses": [
+        "Los analisis de sangre, incluyendo el hemograma completo, son pruebas de laboratorio que evaluan diversos componentes de la sangre como globulos rojos, globulos blancos, plaquetas, hemoglobina y hematocrito.  Estos analisis ayudan a diagnosticar una amplia gama de condiciones medicas. ¿Te gustaria saber mas sobre algun componente especifico o tipo de analisis?",
+        "Un analisis de sangre puede revelar informacion valiosa sobre tu salud.  Se pueden analizar diferentes componentes para detectar infecciones, anemia, trastornos de la coagulacion y muchas otras enfermedades. ¿Que te gustaria saber sobre los analisis de sangre?"
+      ]
+    },
+    {
+      "tag": "enfermedades_sanguineas",
+      "patterns": [
+        "Enfermedades de la sangre",
+        "Condiciones sanguineas",
+        "Trastornos sanguineos",
+        "Problemas con la sangre"
+      ],
+      "responses": [
+        "Existen diversas enfermedades y condiciones que afectan la sangre, incluyendo anemia, leucemia, hemofilia, y trastornos de la coagulacion.  Cada una tiene sintomas y tratamientos especificos.  Es importante consultar a un profesional de la salud para un diagnostico preciso y tratamiento adecuado.",
+        "Las enfermedades sanguineas son un grupo diverso de afecciones que pueden afectar diferentes partes de la sangre.  Algunas de las mas comunes incluyen la anemia, la leucemia, y los trastornos de la coagulacion.  Si tienes alguna preocupacion sobre tu salud sanguinea, consulta a un medico."
+      ]
+    },
+    {
+      "tag": "donacion_organos_sangre_tipos",
+      "patterns": [
+        "Donacion de organos y tipo de sangre",
+        "Compatibilidad de sangre para trasplantes",
+        "Importancia del tipo de sangre en trasplantes",
+        "Tipo de sangre y donacion de organos"
+      ],
+      "responses": [
+        "La compatibilidad de tipo de sangre es un factor importante en la donacion y trasplante de organos.  Aunque no es el unico criterio, la compatibilidad del grupo sanguineo ABO y del factor Rh se considera en la seleccion de donantes y receptores para reducir el riesgo de rechazo.",
+        "El tipo de sangre juega un rol crucial en la compatibilidad de trasplantes de organos. La compatibilidad ABO y Rh es fundamental para minimizar el riesgo de complicaciones posoperatorias.  Existen otras consideraciones inmunologicas mas complejas que tambien influyen en la compatibilidad."
+      ]
+    },
+    {
+      "tag": "procedimientos_especificos",
+      "patterns": [
+        "Procedimientos medicos relacionados con la sangre",
+        "Tipos de procedimientos sanguineos",
+        "Informacion sobre procedimientos sanguineos"
+      ],
+      "responses": [
+        "Existen muchos procedimientos medicos que involucran la sangre, tales como transfusiones de sangre, analisis de sangre, flebotomia (extraccion de sangre), y aferesis (separacion de componentes sanguineos). Cada procedimiento tiene sus propias implicaciones y riesgos.",
+        "La medicina cuenta con una variedad de procedimientos relacionados con la sangre, desde transfusiones hasta analisis y procedimientos mas complejos como la aferesis.  Cada procedimiento tiene sus propias indicaciones y precauciones."
+      ]
+    },
+    {
+      "tag": "almacenamiento_conservacion",
+      "patterns": [
+        "Almacenamiento y conservacion de la sangre",
+        "Como se almacena la sangre",
+        "Condiciones de almacenamiento de la sangre",
+        "Vida util de los componentes sanguineos"
+      ],
+      "responses": [
+        "El almacenamiento y la conservacion de la sangre son cruciales para mantener la calidad y seguridad de los componentes sanguineos.  Se utilizan diferentes metodos y condiciones de almacenamiento segun el componente (globulos rojos, plaquetas, plasma), y existen estrictos controles de temperatura y tiempo para garantizar su viabilidad.",
+        "Los componentes sanguineos se almacenan en condiciones cuidadosamente controladas para preservar su funcionalidad.  La temperatura, el tiempo de almacenamiento, y otros factores varian segun el componente.  Se realizan controles de calidad regulares para garantizar la seguridad."
+      ]
+    },
+    {
+      "tag": "transfusiones_emergencia",
+      "patterns": [
+        "Transfusiones de sangre de emergencia",
+        "Sangre para emergencias",
+        "Sangre en situaciones de urgencia",
+        "Protocolos de transfusiones de emergencia"
+      ],
+      "responses": [
+        "En situaciones de emergencia, la rapidez es esencial.  El tipo de sangre O negativo (O-) se utiliza a menudo en transfusiones de emergencia debido a su compatibilidad universal.  Sin embargo, la compatibilidad es crucial, por lo que si el tiempo lo permite, se realiza una prueba de compatibilidad cruzada para asegurar una transfusion segura.",
+        "Las transfusiones de emergencia requieren un enfoque rapido y eficiente.  La sangre O negativo (O-) es considerada la sangre universal y se utiliza en emergencias cuando no hay tiempo para determinar el tipo de sangre del receptor. Pero siempre que sea posible, se realiza una prueba de compatibilidad cruzada antes de la transfusion para garantizar la seguridad del paciente."
+      ]
+    },
+    {
+      "tag": "efectos_secundarios_donacion",
+      "patterns": [
+        "¿Que efectos secundarios tiene donar sangre?",
+        "¿Me mareara donar sangre?",
+        "¿Puedo hacer ejercicio despues de donar?",
+        "¿Es normal sentir cansancio despues de donar?",
+        "Efectos secundarios despues de donar",
+        "¿Cuanto tarda en recuperarse el cuerpo despues de donar?",
+        "¿Puedo trabajar despues de donar sangre?",
+        "¿Que cuidados necesito despues de donar?"
+      ],
+      "responses": [
+        "Los efectos secundarios comunes despues de donar sangre son:\n\n1. Mareo leve (temporal)\n2. Fatiga ligera (1-2 dias)\n3. Pequeño moreton en el sitio de la puncion\n\nRecomendaciones post-donacion:\n- Descansar 15 minutos despues de donar\n- Beber abundante agua\n- Evitar ejercicio intenso por 24 horas\n- Mantener el vendaje por 4-6 horas\n\n¿Te gustaria saber mas sobre algun aspecto especifico?",
+        "Despues de donar sangre es normal experimentar:\n\n✔️ Cansancio leve\n✔️ Mareo temporal\n✔️ Sensacion de sed\n\nEstos efectos son temporales y puedes minimizarlos:\n- Bebiendo agua antes y despues\n- Comiendo bien ese dia\n- Descansando adecuadamente\n\nConsulta al medico si los sintomas persisten."
+      ]
+    },
+    {
+      "tag": "requisitos_edad_donacion",
+      "patterns": [
+        "¿A que edad puedo empezar a donar sangre?",
+        "¿Hasta que edad se puede donar?",
+        "¿Hay limite de edad para donar?",
+        "¿Pueden los ancianos donar sangre?",
+        "¿Con 16 años puedo donar?",
+        "Edad minima para donar",
+        "Edad maxima para donacion",
+        "¿Soy muy mayor para donar?"
+      ],
+      "responses": [
+        "Los requisitos de edad para donar sangre son:\n\n📌 Edad minima: 18 años\n📌 Edad maxima: 65 años para donantes nuevos\n📌 Hasta 70 años para donantes regulares\n\nExcepciones:\n- Algunos paises permiten donacion desde los 16 años con consentimiento parental\n- Donantes regulares saludables pueden continuar despues de los 65 con aprobacion medica",
+        "Para donar sangre, la edad es importante:\n\n1️⃣ Debes tener al menos 18 años\n2️⃣ El limite superior es 65 años para nuevos donantes\n3️⃣ Donantes regulares pueden continuar hasta los 70\n\nSiempre se realiza una evaluacion medica para asegurar que la donacion sea segura tanto para el donante como para el receptor."
+      ]
+    },
+    {
+      "tag": "grupos_sanguineos_raros",
+      "patterns": [
+        "¿Que son los tipos de sangre raros?",
+        "Grupos sanguineos poco comunes",
+        "¿Que tan raro es mi tipo de sangre?",
+        "Tipos de sangre menos frecuentes",
+        "¿Por que algunos tipos de sangre son raros?",
+        "Sangre rara",
+        "Fenotipos raros de sangre",
+        "Tipos de sangre unicos"
+      ],
+      "responses": [
+        "Los grupos sanguineos raros son especialmente valiosos:\n\n🔹 AB negativo (1% de la poblacion)\n🔹 B negativo (2% de la poblacion)\n🔹 Fenotipos especiales como:\n  - Rh-null (extremadamente raro)\n  - HH (menos de 1 en un millon)\n\nSi tienes un tipo de sangre raro, tus donaciones son especialmente importantes para el sistema de salud.",
+        "Algunos tipos de sangre son considerados raros por su baja frecuencia:\n\n1. AB- (1% de la poblacion)\n2. B- (2% de la poblacion)\n3. Fenotipos especiales:\n   - Rh-null ('sangre dorada')\n   - Antigenos raros\n\nLos bancos de sangre mantienen registros especiales de donantes con tipos raros para emergencias."
+      ]
+    },
+    {
+      "tag": "aplicaciones_medicas_especificas",
+      "patterns": [
+        "¿Para que se usa cada tipo de sangre?",
+        "Usos medicos de la sangre",
+        "Aplicaciones de las transfusiones",
+        "¿Cuando se necesita una transfusion?",
+        "Tipos de transfusiones sanguineas",
+        "¿Que enfermedades requieren transfusiones?",
+        "Casos medicos que necesitan sangre",
+        "Usos de las donaciones de sangre"
+      ],
+      "responses": [
+        "Las transfusiones de sangre tienen multiples aplicaciones medicas:\n\n🏥 Cirugias mayores\n🏥 Tratamientos de cancer\n🏥 Trauma y accidentes\n🏥 Trastornos de la sangre\n\nCada componente tiene usos especificos:\n- Globulos rojos: anemia, cirugias\n- Plaquetas: problemas de coagulacion\n- Plasma: quemaduras, enfermedades hepaticas",
+        "La sangre donada se utiliza en diversos tratamientos:\n\n1. Urgencias y traumatismos\n2. Cirugias programadas\n3. Tratamientos oncologicos\n4. Trastornos hematologicos\n\nCada tipo de sangre y componente tiene aplicaciones especificas segun las necesidades del paciente."
+      ]
+    },
+    {
+      "tag": "frecuencia_donacion",
+      "patterns": [
+        "¿Cada cuanto puedo donar sangre?",
+        "Tiempo entre donaciones",
+        "¿Cuando puedo volver a donar?",
+        "Periodo entre donaciones",
+        "¿Con que frecuencia se puede donar?",
+        "Tiempo de espera para donar",
+        "¿Puedo donar todos los meses?",
+        "Intervalo entre donaciones"
+      ],
+      "responses": [
+        "Los intervalos recomendados entre donaciones son:\n\n⏰ Sangre completa: cada 56 dias (2 meses)\n⏰ Plaquetas: cada 7 dias\n⏰ Plasma: cada 28 dias\n\nFactores importantes:\n- Mantener niveles de hierro saludables\n- Recuperacion completa del cuerpo\n- Evaluacion medica en cada donacion",
+        "La frecuencia de donacion varia segun el tipo:\n\n1. Sangre completa: maximo 6 veces al año\n2. Plaquetas: hasta 24 veces al año\n3. Plasma: cada 4 semanas\n\nEs importante respetar estos intervalos para mantener tu salud y la calidad de la donacion."
+      ]
+    },
+    {
+      "tag": "analisis_sangre",
+      "patterns": [
+        "Que es un hemograma",
+        "Para que sirve un analisis de sangre",
+        "Que muestran los analisis de sangre",
+        "Interpretacion analisis sangre",
+        "Valores normales en sangre",
+        "Que significan mis resultados",
+        "Componentes del analisis de sangre"
+      ],
+      "responses": [
+        "Un analisis de sangre o hemograma es una herramienta diagnostica fundamental que examina varios componentes: 1) Globulos rojos: transportan oxigeno, 2) Globulos blancos: combaten infecciones, 3) Plaquetas: ayudan en la coagulacion, 4) Hemoglobina: proteina que lleva oxigeno, 5) Hematocrito: porcentaje de globulos rojos. Cada componente tiene rangos normales especificos que pueden variar segun edad, sexo y otros factores. ¿Te gustaria saber mas sobre algun componente en particular?"
+      ]
+    },
+    {
+      "tag": "enfermedades_condiciones",
+      "patterns": [
+        "Que es la anemia",
+        "Tipos de leucemia",
+        "Que es la hemofilia",
+        "Trastornos de la sangre",
+        "Problemas de coagulacion",
+        "Enfermedades hematologicas",
+        "Sintomas de anemia"
+      ],
+      "responses": [
+        "Las enfermedades de la sangre son diversas y pueden afectar diferentes componentes. Las mas comunes incluyen: 1) Anemia: niveles bajos de globulos rojos o hemoglobina, 2) Leucemia: cancer de las celulas sanguineas, 3) Hemofilia: trastorno de la coagulacion, 4) Trombocitopenia: bajo nivel de plaquetas. Cada condicion tiene sus propios sintomas y tratamientos especificos. Como asistente virtual, puedo brindarte informacion general, pero siempre es importante consultar con un profesional de la salud para diagnostico y tratamiento."
+      ]
+    },
+    {
+      "tag": "donacion_organos_sangre",
+      "patterns": [
+        "Relacion entre tipo de sangre y donacion de organos",
+        "Compatibilidad para trasplantes",
+        "Puedo donar organos con mi tipo de sangre",
+        "Tipo de sangre para trasplante",
+        "Donacion de medula osea"
+      ],
+      "responses": [
+        "La compatibilidad sanguinea es crucial en la donacion de organos. El tipo de sangre afecta la compatibilidad en trasplantes de organos solidos y de medula osea. Por ejemplo: 1) Los donantes O son universales para organos como el riñon, 2) Para trasplante de medula osea, se necesita una compatibilidad mas especifica del HLA (Antigeno Leucocitario Humano), 3) El plasma de tipo AB puede ser usado en cualquier receptor. Como asistente especializado, puedo explicarte mas sobre la compatibilidad especifica para cada tipo de trasplante."
+      ]
+    },
+    {
+      "tag": "procedimientos_medicos",
+      "patterns": [
+        "Que es una flebotomia",
+        "Como se hace una transfusion",
+        "Proceso de donacion de sangre",
+        "Que es la aferesis",
+        "Examen de medula osea",
+        "Biopsia de medula"
+      ],
+      "responses": [
+        "Los procedimientos relacionados con la sangre son diversos y especificos. La flebotomia es la extraccion de sangre para analisis o tratamiento. Una transfusion implica la administracion cuidadosa de sangre compatible, monitoreando signos vitales y posibles reacciones. La aferesis es un proceso especial que separa componentes especificos de la sangre. La biopsia de medula osea examina donde se producen las celulas sanguineas. Como asistente virtual medico, puedo explicarte estos procedimientos en detalle, pero recuerda que la informacion real y especifica debe provenir de tu equipo medico."
+      ]
+    },
+    {
+      "tag": "almacenamiento_sangre",
+      "patterns": [
+        "Cuanto dura la sangre almacenada",
+        "Como se guarda la sangre",
+        "Vida util sangre donada",
+        "Banco de sangre almacenamiento",
+        "Conservacion de sangre"
+      ],
+      "responses": [
+        "La sangre donada tiene diferentes periodos de almacenamiento segun el componente: 1) Globulos rojos: 42 dias a 4°C, 2) Plaquetas: 5-7 dias a 22°C, 3) Plasma: hasta 1 año congelado a -18°C. Los bancos de sangre mantienen un control estricto de temperatura y condiciones de almacenamiento para garantizar la seguridad y eficacia de los componentes sanguineos."
+      ]
+    },
+    {
+      "tag": "transfusion_emergencia",
+      "patterns": [
+        "Que sangre se usa en emergencias",
+        "Tipo de sangre para emergencias",
+        "Sangre en accidentes",
+        "Transfusion de emergencia",
+        "Que pasa si no se mi tipo de sangre en emergencia"
+      ],
+      "responses": [
+        "En situaciones de emergencia donde no hay tiempo para determinar el tipo de sangre del paciente, se utiliza sangre O negativa (O-) ya que es el donante universal y puede ser transfundida de manera segura a cualquier persona. Tambien se puede usar O+ para pacientes Rh positivos. Los hospitales mantienen reservas especiales de estos tipos para emergencias."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "Muy util",
+        "Me has ayudado mucho",
+        "Mil gracias",
+        "Gracias por la ayuda",
+        "Te agradezco mucho",
+        "Eres de gran ayuda",
+        "Gracias por la informacion",
+        "Gracias por tu tiempo",
+        "Aprecio tu ayuda",
+        "Estoy muy agradecido",
+        "Gracias por explicarme",
+        "Gracias por aclarar mis dudas",
+        "Gracias por ser tan claro",
+        "Gracias por tu paciencia",
+        "Gracias por todo",
+        "Gracias por tu apoyo",
+        "Gracias por responder",
+        "Gracias por la explicacion",
+        "Gracias por ser tan util",
+        "Gracias por tu dedicacion",
+        "Gracias por tu amabilidad"
+      ],
+      "responses": [
+        "¡Me alegro de haber podido ayudarte! Recuerda que aunque soy un bot, estoy aqui para brindarte informacion precisa sobre temas de sangre. No dudes en volver si tienes mas preguntas.",
+        "¡Es un placer ayudarte! Como asistente especializado en temas de sangre, me alegra poder compartir informacion util. Vuelve cuando lo necesites.",
+        "¡Gracias a ti por tu consulta! Aunque soy un asistente virtual, me esfuerzo por proporcionar la informacion mas precisa sobre temas de sangre. ¿Hay algo mas en lo que pueda ayudarte?",
+        "¡Mil gracias a ti por confiar en mi! Estoy aqui para ayudarte con cualquier duda relacionada con la sangre. No dudes en preguntarme lo que necesites.",
+        "¡No hay de que! Me encanta poder ayudarte. Recuerda que estoy aqui para resolver tus dudas sobre temas de sangre. ¡Vuelve cuando quieras!",
+        "¡Gracias a ti por tu amabilidad! Siempre estoy disponible para brindarte informacion clara y precisa sobre temas de sangre. ¿Necesitas algo mas?",
+        "¡Es un honor ayudarte! Aunque soy un bot, mi objetivo es que entiendas todo sobre la sangre y sus temas relacionados. ¡No dudes en volver!",
+        "¡Gracias por tus palabras! Me alegra saber que te he sido util. Si tienes mas preguntas sobre la sangre, aqui estare para ayudarte.",
+        "¡Muchas gracias a ti! Estoy aqui para hacer que los temas de sangre sean mas faciles de entender. ¿Hay algo mas en lo que pueda colaborar?",
+        "¡Gracias por tu agradecimiento! Como asistente especializado en sangre, mi mision es ayudarte. ¡No dudes en consultarme cuando lo necesites!",
+        "¡Gracias a ti por confiar en mi! Siempre estoy disponible para ayudarte con cualquier duda relacionada con la sangre. ¡No dudes en preguntar!"
+      ]
+    },
+    {
+      "tag": "confusion",
+      "patterns": [
+        "No entendi",
+        "No comprendo",
+        "No se",
+        "No entiendo",
+        "Podrias explicarlo mejor",
+        "No me queda claro",
+        "Puedes repetirlo",
+        "No te sigo",
+        "Me perdi, ¿puedes explicarlo de nuevo?",
+        "No capto la idea",
+        "¿Podrias ser mas especifico?",
+        "No comprendo bien",
+        "¿Me lo dices de otra forma?",
+        "No logro entenderlo",
+        "¿Puedes aclararlo?",
+        "Estoy confundido",
+        "Necesito mas detalles",
+        "No estoy seguro de entender",
+        "¿Podrias simplificarlo?",
+        "No me queda claro del todo",
+        "¿Puedes desglosarlo?",
+        "No se de que hablas",
+        "No logro seguirte",
+        "¿Podrias explicarlo mas despacio?",
+        "No termino de entender",
+        "¿Puedes ser mas claro?",
+        "No me queda claro lo que dices",
+        "¿Podrias darme un ejemplo?",
+        "No entiendo bien el concepto",
+        "¿Puedes explicarlo con otras palabras?",
+        "No se a que te refieres",
+        "No logro comprender",
+        "¿Podrias profundizar mas?",
+        "No me queda claro el tema",
+        "¿Puedes explicarlo de manera mas simple?",
+        "No entiendo del todo"
+      ],
+      "responses": [
+        "Claro, intentare explicarlo de forma mas sencilla. Como asistente especializado en temas de sangre, es importante para mi que la informacion sea clara. ¿Que parte te gustaria que te explique mejor?",
+        "Por supuesto, a veces estos temas medicos pueden ser complejos. Aunque soy un bot, puedo explicarte la informacion de diferentes maneras. ¿Que parte necesitas que te aclare?",
+        "Entiendo que estos temas pueden ser confusos. Dejame saber que parte no quedo clara y te lo explicare de otra manera. Recuerda que estoy aqui para ayudarte a entender mejor los temas relacionados con la sangre.",
+        "No hay problema, estos conceptos pueden ser dificiles de entender. ¿Que parte te genera dudas? Estoy aqui para ayudarte a aclararlo.",
+        "¡Claro que si! Voy a intentar explicarlo de una manera mas simple. ¿En que parte te quedaste con dudas?",
+        "Entiendo que puede ser complicado. ¿Te gustaria que lo explique paso a paso o que me centre en algun aspecto en particular?",
+        "No te preocupes, a veces la informacion medica puede ser abrumadora. ¿Que parte no te quedo clara? Estoy aqui para ayudarte."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adios",
+        "Hasta luego",
+        "Gracias por tu ayuda",
+        "Chao",
+        "Nos vemos"
+      ],
+      "responses": [
+        "¡Hasta pronto! Recuerda que aunque soy un asistente virtual, estoy aqui 24/7 para resolver tus dudas sobre tipos de sangre. ¡Que tengas un excelente dia!",
+        "¡Cuidate mucho! Si tienes mas preguntas sobre temas de sangre en el futuro, no dudes en volver. Como bot especializado, siempre estare aqui para ayudarte.",
+        "¡Que tengas un excelente dia! Gracias por confiar en mi para resolver tus dudas sobre temas de sangre. Aunque soy un bot, me esfuerzo por dar la mejor informacion posible."
+      ]
+    },
+    {
+      "tag": "tipo_sangre",
+      "patterns": [
+        "Que tipos de sangre existen",
+        "Cuales son los grupos sanguineos",
+        "Tipos de sangre",
+        "Grupos sanguineos",
+        "Explicame los tipos de sangre",
+        "Cuantos tipos de sangre hay",
+        "¿Me puedes decir los tipos de sangre?",
+        "No se que tipos de sangre hay",
+        "Dime todos los tipos de sangre",
+        "¿Cuantas clases de sangre hay?",
+        "Necesito saber los grupos sanguineos",
+        "¿Que significa A+?",
+        "¿Que es el tipo O?",
+        "Lista de tipos de sangre",
+        "Clasificacion de la sangre"
+      ],
+      "responses": [
+        "📌 Los tipos de sangre se clasifican en 8 grupos principales:\n\n🔹 Tipo A: A+ y A- (34% y 6% de la poblacion)\n🔹 Tipo B: B+ y B- (9% y 2% de la poblacion)\n🔹 Tipo AB: AB+ y AB- (3% y 1% de la poblacion)\n🔹 Tipo O: O+ y O- (38% y 7% de la poblacion)\n\nCada tipo tiene caracteristicas unicas que determinan su compatibilidad para donaciones y transfusiones. ¿Te gustaria saber mas sobre algun tipo en particular?",
+        "¡Claro! 🩸 Existen 8 tipos de sangre diferentes, cada uno con sus propias caracteristicas:\n\n1️⃣ A positivo (A+)\n2️⃣ A negativo (A-)\n3️⃣ B positivo (B+)\n4️⃣ B negativo (B-)\n5️⃣ AB positivo (AB+)\n6️⃣ AB negativo (AB-)\n7️⃣ O positivo (O+)\n8️⃣ O negativo (O-)\n\n¿Te interesa conocer mas sobre la compatibilidad de alguno en especifico?",
+        "Los tipos de sangre se dividen en cuatro grupos principales que se combinan con el factor Rh:\n\n🔶 Tipo A (A+ y A-): Presente en el 40% de la poblacion\n🔶 Tipo B (B+ y B-): Presente en el 11% de la poblacion\n🔶 Tipo AB (AB+ y AB-): El mas raro, solo 4% de la poblacion\n🔶 Tipo O (O+ y O-): El mas comun, 45% de la poblacion\n\n¿Quieres saber mas sobre las compatibilidades entre estos tipos?"
+      ]
+    },
+    {
+      "tag": "factor_rh",
+      "patterns": [
+        "Que es el factor Rh",
+        "Para que sirve el factor Rh",
+        "Explicame el Rh",
+        "Importancia del factor Rh",
+        "Positivo y negativo en sangre"
+      ],
+      "responses": [
+        "El factor Rh es una proteina heredada que puede estar presente (Rh positivo) o ausente (Rh negativo) en los globulos rojos. Es crucial en transfusiones y embarazos. Las personas Rh negativas solo pueden recibir sangre Rh negativa, mientras que las Rh positivas pueden recibir ambas. Durante el embarazo, si la madre es Rh negativa y el feto Rh positivo, se requiere un seguimiento especial para prevenir complicaciones."
+      ]
+    },
+    {
+      "tag": "compatibilidad_a_positivo",
+      "patterns": [
+        "Con quien es compatible A positivo",
+        "A+ con que tipo de sangre",
+        "Puedo donar siendo A+",
+        "Quien puede donar si soy A+",
+        "Soy A positivo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo A+, puedes RECIBIR sangre de: A+, A-, O+ y O-. Pero solo puedes DONAR a: A+ y AB+. Es importante saber que aunque tus opciones para donar son limitadas, tu sangre es muy valiosa para aproximadamente el 30% de la poblacion que tiene estos tipos de sangre compatibles."
+      ]
+    },
+    {
+      "tag": "compatibilidad_a_negativo",
+      "patterns": [
+        "Con quien es compatible A negativo",
+        "A- con que tipo de sangre",
+        "Puedo donar siendo A-",
+        "Quien puede donar a A-",
+        "Soy A negativo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo A-, puedes RECIBIR sangre de: A- y O-. Puedes DONAR a: A+, A-, AB+ y AB-. Tu sangre es especialmente valiosa ya que eres undonante universal para todos los tipos A y AB, tanto positivos como negativos. Solo el 6% de la poblacion tiene tipo A-, por lo que tu sangre es muy necesaria en los bancos de sangre."
+      ]
+    },
+    {
+      "tag": "compatibilidad_b_positivo",
+      "patterns": [
+        "Con quien es compatible B positivo",
+        "B+ con que tipo de sangre",
+        "Puedo donar siendo B+",
+        "Quien puede donar a B+",
+        "Soy B positivo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo B+, puedes RECIBIR sangre de: B+, B-, O+ y O-. Pero solo puedes DONAR a: B+ y AB+. El tipo B+ esta presente en aproximadamente el 9% de la poblacion. Tu sangre es especialmente importante para pacientes B+ y AB+ que necesitan transfusiones regulares."
+      ]
+    },
+    {
+      "tag": "compatibilidad_b_negativo",
+      "patterns": [
+        "Con quien es compatible B negativo",
+        "B- con que tipo de sangre",
+        "Puedo donar siendo B-",
+        "Quien puede donar a B-",
+        "Soy B negativo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo B-, puedes RECIBIR sangre de: B- y O-. Puedes DONAR a: B+, B-, AB+ y AB-. El tipo B- es muy raro, presente en solo el 2% de la poblacion. Tu sangre es extremadamente valiosa para transfusiones de emergencia en pacientes B y AB."
+      ]
+    },
+    {
+      "tag": "compatibilidad_ab_positivo",
+      "patterns": [
+        "Con quien es compatible AB positivo",
+        "AB+ con que tipo de sangre",
+        "Puedo donar siendo AB+",
+        "Quien puede donar a AB+",
+        "Soy AB positivo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo AB+, eres el RECEPTOR UNIVERSAL - puedes recibir sangre de CUALQUIER tipo (A+, A-, B+, B-, AB+, AB-, O+ y O-). Sin embargo, solo puedes DONAR a AB+. Aunque tus opciones para donar son limitadas, eres un donante de plasma universal, lo cual es extremadamente valioso para tratamientos medicos."
+      ]
+    },
+    {
+      "tag": "compatibilidad_ab_negativo",
+      "patterns": [
+        "Con quien es compatible AB negativo",
+        "AB- con que tipo de sangre",
+        "Puedo donar siendo AB-",
+        "Quien puede donar a AB-",
+        "Soy AB negativo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo AB-, puedes RECIBIR sangre de tipos negativos: A-, B-, O- y AB-. Puedes DONAR a: AB+ y AB-. El tipo AB- es el mas raro, presente en menos del 1% de la poblacion. Tu plasma es universal para todos los tipos de sangre, lo que te hace un donante de plasma extremadamente valioso."
+      ]
+    },
+    {
+      "tag": "compatibilidad_o_positivo",
+      "patterns": [
+        "Con quien es compatible O positivo",
+        "O+ con que tipo de sangre",
+        "Puedo donar siendo O+",
+        "Quien puede donar a O+",
+        "Soy O positivo, a quien puedo donar"
+      ],
+      "responses": [
+        "Si eres tipo O+, puedes RECIBIR sangre de: O+ y O-. Puedes DONAR a todos los tipos POSITIVOS: A+, B+, AB+ y O+. El tipo O+ es el mas comun, presente en el 38% de la poblacion. Tu sangre es muy solicitada en hospitales ya que puedes donar a mas del 80% de la poblacion."
+      ]
+    },
+    {
+      "tag": "compatibilidad_o_negativo",
+      "patterns": [
+        "Con quien es compatible O negativo",
+        "O- con que tipo de sangre",
+        "Puedo donar siendo O-",
+        "Quien puede donar a O-",
+        "Soy O negativo, a quien puedo donar",
+        "O negativo es donante universal"
+      ],
+      "responses": [
+        "💫 ¡El O negativo es el DONANTE UNIVERSAL! Esto significa que:\n\n✅ Puedes DONAR a TODOS los tipos de sangre\n❗ Pero solo puedes RECIBIR sangre O-\n\nEsto hace que tu sangre sea extremadamente valiosa, especialmente en emergencias donde no hay tiempo para determinar el tipo de sangre del paciente. ¿Sabias que solo el 7% de la poblacion tiene tipo O-? ¡Eres muy especial!",
+        "🌟 Como O negativo, eres un donante muy especial:\n\n📍 Puedes donar a: A+, A-, B+, B-, AB+, AB-, O+ y O-\n📍 Solo puedes recibir de: O-\n\nTu sangre es vital en situaciones de emergencia y se usa cuando no se conoce el tipo de sangre del paciente. ¿Te gustaria saber mas sobre la importancia de las donaciones O-?",
+        "El tipo O negativo es conocido como el 'donante universal' por una buena razon:\n\n🎯 Puedes salvar vidas donando a cualquier tipo de sangre\n⚠️ Pero solo puedes recibir sangre O-\n\nTu tipo de sangre es muy valioso y siempre necesario en los bancos de sangre. ¿Te interesa saber mas sobre como puedes ayudar como donante O-?"
+      ]
+    },
+    {
+      "tag": "transfusion_emergencia",
+      "patterns": [
+        "Que sangre se usa en emergencias",
+        "Tipo de sangre para emergencias",
+        "Sangre en accidentes",
+        "Transfusion de emergencia",
+        "Que pasa si no se mi tipo de sangre en emergencia"
+      ],
+      "responses": [
+        "En situaciones de emergencia donde no hay tiempo para determinar el tipo de sangre del paciente, se utiliza sangre O negativa (O-) ya que es el donante universal y puede ser transfundida de manera segura a cualquier persona. Tambien se puede usar O+ para pacientes Rh positivos. Los hospitales mantienen reservas especiales de estos tipos para emergencias."
+      ]
+    },
+    {
+      "tag": "donacion_sangre_requisitos",
+      "patterns": [
+        "Requisitos para donar sangre",
+        "Puedo donar sangre",
+        "Que necesito para donar",
+        "Condiciones para donar sangre",
+        "Cuando puedo donar sangre"
+      ],
+      "responses": [
+        "Para donar sangre generalmente necesitas: 1) Tener entre 18 y 65 años, 2) Pesar mas de 50 kg, 3) Estar en buen estado de salud, 4) No haber tenido cirugias recientes, 5) No estar tomando ciertos medicamentos, 6) No haber donado sangre en los ultimos 2-3 meses. Tambien hay restricciones especificas relacionadas con enfermedades, viajes recientes y comportamientosde riesgo. Tambien hay restricciones especificas relacionadas con enfermedades, viajes recientes y comportamientos de riesgo."
+      ]
+    },
+    {
+      "tag": "embarazo_rh",
+      "patterns": [
+        "Embarazo y factor Rh",
+        "Incompatibilidad Rh embarazo",
+        "Madre Rh negativo bebe positivo",
+        "Riesgos Rh en embarazo",
+        "Que es la eritroblastosis fetal"
+      ],
+      "responses": [
+        "La incompatibilidad Rh durante el embarazo ocurre cuando una madre Rh negativa espera un bebe Rh positivo. Esto puede causar que el sistema inmune de la madre produzca anticuerpos contra la sangre del bebe, causando eritroblastosis fetal. Para prevenir esto, se administra una inyeccion de inmunoglobulina Rh (RhoGAM) durante el embarazo y despues del parto. Es crucial un seguimiento medico adecuado."
+      ]
+    },
+    {
+      "tag": "almacenamiento_sangre",
+      "patterns": [
+        "Cuanto dura la sangre almacenada",
+        "Como se guarda la sangre",
+        "Vida util sangre donada",
+        "Banco de sangre almacenamiento",
+        "Conservacion de sangre"
+      ],
+      "responses": [
+        "La sangre donada tiene diferentes periodos de almacenamiento segun el componente: 1) Globulos rojos: 42 dias a 4°C, 2) Plaquetas: 5-7 dias a 22°C, 3) Plasma: hasta 1 año congelado a -18°C. Los bancos de sangre mantienen un control estricto de temperatura y condiciones de almacenamiento para garantizar la seguridad y eficacia de los componentes sanguineos."
+      ]
+    },
+    {
+      "tag": "plasma_uso",
+      "patterns": [
+        "Para que sirve el plasma",
+        "Usos del plasma sanguineo",
+        "Donacion de plasma",
+        "Beneficios del plasma",
+        "Quien necesita plasma"
+      ],
+      "responses": [
+        "El plasma es el componente liquido de la sangre que contiene proteinas vitales. Se usa en tratamientos para: 1) Trastornos de coagulacion, 2) Quemaduras graves, 3) Shock, 4) Enfermedades hepaticas, 5) Condiciones inmunologicas. Los donantes AB son donantes universales de plasma, mientras que los tipos AB son receptores universales de plasma."
+      ]
+    },
+    {
+      "tag": "frecuencia_donacion",
+      "patterns": [
+        "Cada cuanto puedo donar sangre",
+        "Tiempo entre donaciones",
+        "Frecuencia donacion sangre",
+        "Cuantas veces al año donar",
+        "Periodo entre donaciones"
+      ],
+      "responses": [
+        "Las recomendaciones para la frecuencia de donacion son: 1) Sangre completa: cada 56 dias (hasta 6 veces al año), 2) Plaquetas: cada 7 dias (hasta 24 veces al año), 3) Plasma: cada 28 dias. Estos intervalos permiten que tu cuerpo regenere los componentes sanguineos de manera segura. Siempre consulta con el centro de donacion para recomendaciones especificas."
+      ]
+    },
+    {
+      "tag": "rechazo_transfusion",
+      "patterns": [
+        "Que es el rechazo a transfusion",
+        "Reaccion transfusional",
+        "Complicaciones transfusion",
+        "Efectos adversos transfusion",
+        "Riesgos transfusion sangre"
+      ],
+      "responses": [
+        "Una reaccion transfusional ocurre cuando el cuerpo reacciona negativamente a la sangre transfundida. Los sintomas pueden incluir: fiebre, escalofrios, dificultad respiratoria, dolor de espalda y reacciones alergicas. Es crucial usar sangre compatible y seguir protocolos estrictos de seguridad. Las reacciones graves son raras gracias a las pruebas de compatibilidad previas a la transfusion."
+      ]
+    },
+    {
+      "tag": "plaquetas_info",
+      "patterns": [
+        "Que son las plaquetas",
+        "Para que sirven las plaquetas",
+        "Transfusion de plaquetas",
+        "Donacion de plaquetas",
+        "Necesito plaquetas"
+      ],
+      "responses": [
+        "Las plaquetas son celulas sanguineas esenciales para la coagulacion. Son necesarias para: 1) Detener hemorragias, 2) Tratamiento de cancer, 3) Cirugias mayores, 4) Trasplantes de organos. La donacion de plaquetas (aferesis) es un proceso especial que dura mas que la donacion de sangre regular, pero las plaquetas se regeneran mas rapidamente."
+      ]
+    },
+    {
+      "tag": "mitos",
+      "patterns": [
+        "¿Es cierto que la sangre azul existe?",
+        "¿Los tipos de sangre influyen en la personalidad?",
+        "¿Puedo cambiar mi tipo de sangre?",
+        "¿Es malo donar sangre frecuentemente?",
+        "¿La sangre se regenera rapido?"
+      ],
+      "responses": [
+        "¡Buena pregunta! Aqui aclaro algunos mitos: 1) La sangre azul no existe, es solo una expresion. 2) No hay evidencia cientifica de que el tipo de sangre influya en la personalidad. 3) Tu tipo de sangre es genetico y no puede cambiar. 4) Donar sangre es seguro si se hace con la frecuencia recomendada. ¿Tienes mas dudas?",
+        "Hay muchos mitos sobre la sangre. Por ejemplo: 1) La sangre no se 'agota' al donar; el cuerpo la regenera en pocas semanas. 2) El tipo de sangre no determina tu dieta ideal. 3) La sangre no se 'contagia' de enfermedades por donar. ¿Quieres saber mas?"
+      ]
+    },
+    {
+      "tag": "Avadon_info",
+      "patterns": [
+        "Que es avadon",
+        "Que es avadon?",
+        "¿Que es avadon?",
+        "¿Que es el avadon?",
+        "¿De que trata avadon?",
+        "De que trata avadon",
+        "¿Que hace avadon?",
+        "¿Cual es el objetivo de avadon?",
+        "¿Para que sirve avadon?",
+        "¿Que es el proyecto avadon?",
+        "¿En que consiste avadon?",
+        "¿Que resuelve avadon?"
+      ],
+      "responses": [
+        "Avadon es un proyecto desarrollado por un grupo de estudiantes del programa Samsung Innovation Campus. Su mision es facilitar la gestion de pacientes segun su tipo de sangre a traves de Inteligencia Artificial, mejorando la eficiencia en hospitales y centros medicos.",
+        "Avadon es una iniciativa innovadora creada por estudiantes del Samsung Innovation Campus. Utiliza Inteligencia Artificial para optimizar la gestion de pacientes segun su tipo de sangre, ayudando a los profesionales de la salud a tomar decisiones mas rapidas y precisas.",
+        "El proyecto Avadon tiene como objetivo principal mejorar la gestion de pacientes en hospitales, especialmente en lo relacionado con el tipo de sangre. Usa Inteligencia Artificial para agilizar procesos y reducir errores en la administracion de recursos medicos.",
+        "Avadon es una herramienta diseñada para hospitales y centros medicos. Su enfoque es facilitar la gestion de pacientes segun su tipo de sangre mediante el uso de Inteligencia Artificial, lo que permite una atencion mas eficiente y segura.",
+        "Avadon es un proyecto que nacio en el Samsung Innovation Campus. Su proposito es revolucionar la gestion de pacientes utilizando Inteligencia Artificial, especialmente en lo relacionado con el tipo de sangre y la asignacion de recursos medicos.",
+        "Avadon es una solucion tecnologica creada por estudiantes. Utiliza Inteligencia Artificial para ayudar a los hospitales a gestionar mejor a los pacientes segun su tipo de sangre, optimizando tiempos y recursos."
+      ]
+    },
+    {
+      "tag": "analisis_sangre_nuevo",
+      "patterns": [
+        "Analisis de sangre y hemogramas",
+        "Tipos de analisis de sangre",
+        "Informacion sobre analisis de sangre",
+        "Que es un analisis de sangre completo"
+      ],
+      "responses": [
+        "Los analisis de sangre, incluyendo el hemograma completo, son pruebas de laboratorio que evaluan diversos componentes de la sangre como globulos rojos, globulos blancos, plaquetas, hemoglobina y hematocrito.  Estos analisis ayudan a diagnosticar una amplia gama de condiciones medicas. ¿Te gustaria saber mas sobre algun componente especifico o tipo de analisis?",
+        "Un analisis de sangre puede revelar informacion valiosa sobre tu salud.  Se pueden analizar diferentes componentes para detectar infecciones, anemia, trastornos de la coagulacion y muchas otras enfermedades. ¿Que te gustaria saber sobre los analisis de sangre?"
+      ]
+    },
+    {
+      "tag": "enfermedades_sanguineas",
+      "patterns": [
+        "Enfermedades de la sangre",
+        "Condiciones sanguineas",
+        "Trastornos sanguineos",
+        "Problemas con la sangre"
+      ],
+      "responses": [
+        "Existen diversas enfermedades y condiciones que afectan la sangre, incluyendo anemia, leucemia, hemofilia, y trastornos de la coagulacion.  Cada una tiene sintomas y tratamientos especificos.  Es importante consultar a un profesional de la salud para un diagnostico preciso y tratamiento adecuado.",
+        "Las enfermedades sanguineas son un grupo diverso de afecciones que pueden afectar diferentes partes de la sangre.  Algunas de las mas comunes incluyen la anemia, la leucemia, y los trastornos de la coagulacion.  Si tienes alguna preocupacion sobre tu salud sanguinea, consulta a un medico."
+      ]
+    },
+    {
+      "tag": "donacion_organos_sangre_tipos",
+      "patterns": [
+        "Donacion de organos y tipo de sangre",
+        "Compatibilidad de sangre para trasplantes",
+        "Importancia del tipo de sangre en trasplantes",
+        "Tipo de sangre y donacion de organos"
+      ],
+      "responses": [
+        "La compatibilidad de tipo de sangre es un factor importante en la donacion y trasplante de organos.  Aunque no es el unico criterio, la compatibilidad del grupo sanguineo ABO y del factor Rh se considera en la seleccion de donantes y receptores para reducir el riesgo de rechazo.",
+        "El tipo de sangre juega un rol crucial en la compatibilidad de trasplantes de organos. La compatibilidad ABO y Rh es fundamental para minimizar el riesgo de complicaciones posoperatorias.  Existen otras consideraciones inmunologicas mas complejas que tambien influyen en la compatibilidad."
+      ]
+    },
+    {
+      "tag": "procedimientos_especificos",
+      "patterns": [
+        "Procedimientos medicos relacionados con la sangre",
+        "Tipos de procedimientos sanguineos",
+        "Informacion sobre procedimientos sanguineos"
+      ],
+      "responses": [
+        "Existen muchos procedimientos medicos que involucran la sangre, tales como transfusiones de sangre, analisis de sangre, flebotomia (extraccion de sangre), y aferesis (separacion de componentes sanguineos). Cada procedimiento tiene sus propias implicaciones y riesgos.",
+        "La medicina cuenta con una variedad de procedimientos relacionados con la sangre, desde transfusiones hasta analisis y procedimientos mas complejos como la aferesis.  Cada procedimiento tiene sus propias indicaciones y precauciones."
+      ]
+    },
+    {
+      "tag": "almacenamiento_conservacion",
+      "patterns": [
+        "Almacenamiento y conservacion de la sangre",
+        "Como se almacena la sangre",
+        "Condiciones de almacenamiento de la sangre",
+        "Vida util de los componentes sanguineos"
+      ],
+      "responses": [
+        "El almacenamiento y la conservacion de la sangre son cruciales para mantener la calidad y seguridad de los componentes sanguineos.  Se utilizan diferentes metodos y condiciones de almacenamiento segun el componente (globulos rojos, plaquetas, plasma), y existen estrictos controles de temperatura y tiempo para garantizar su viabilidad.",
+        "Los componentes sanguineos se almacenan en condiciones cuidadosamente controladas para preservar su funcionalidad.  La temperatura, el tiempo de almacenamiento, y otros factores varian segun el componente.  Se realizan controles de calidad regulares para garantizar la seguridad."
+      ]
+    },
+    {
+      "tag": "transfusiones_emergencia",
+      "patterns": [
+        "Transfusiones de sangre de emergencia",
+        "Sangre para emergencias",
+        "Sangre en situaciones de urgencia",
+        "Protocolos de transfusiones de emergencia"
+      ],
+      "responses": [
+        "En situaciones de emergencia, la rapidez es esencial.  El tipo de sangre O negativo (O-) se utiliza a menudo en transfusiones de emergencia debido a su compatibilidad universal.  Sin embargo, la compatibilidad es crucial, por lo que si el tiempo lo permite, se realiza una prueba de compatibilidad cruzada para asegurar una transfusion segura.",
+        "Las transfusiones de emergencia requieren un enfoque rapido y eficiente.  La sangre O negativo (O-) es considerada la sangre universal y se utiliza en emergencias cuando no hay tiempo para determinar el tipo de sangre del receptor. Pero siempre que sea posible, se realiza una prueba de compatibilidad cruzada antes de la transfusion para garantizar la seguridad del paciente."
+      ]
+    }
+  ]
+}
